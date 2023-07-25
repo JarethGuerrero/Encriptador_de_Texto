@@ -14,15 +14,15 @@
     <main>
         <section class="section1">
             <div class="contenedorCajaTexto">
-                <textarea class="cajaTexto" placeholder="Ingrese el texto"></textarea>
+                <textarea class="cajaTexto" id="textoEncriptado" placeholder="Ingresa el texto que deseas encriptar o desencriptar."></textarea>
             </div>
             <div class="alerta">
                 <img src="images/alerta.svg" alt="Alerta" class="imgAlerta">
                 <p>Ingrese solo letras minúsculas y sin acento</p>
             </div>
             <div class="contenedorBotones">
-                <input type="button" class="btnEncriptar" value="Encriptar" data-btn-encriptar>
-                <input type="button" class="btnDesencriptar" value="Desencriptar" data-btn-desencriptar>
+                <button type="button" class="btnEncriptar" value="Encriptar" id="btnEncriptar">Encriptar</button>
+                <button type="button" class="btnDesencriptar" value="Desencriptar" id="btnDesencriptar">Desencriptar</button>
             </div>
         </section>
         <section class="section2">
@@ -30,17 +30,16 @@
                 <img src="images/Muñeco.svg" alt="munheco" data-munheco>
             </div>
             <div class="contenedorParrafo">
-                <h3>Ningún mensaje fue <br> encontrado.</h3>
-                <p>Ingresa el texto que deseas encriptar o <br> desencriptar.</p>
+                <textarea name="reslutado" id="textoDesencriptado" cols="30" rows="10" placeholder="Esperando texto a enciptar o desencriptar."></textarea>
             </div>
             <div class="contenedorCopiar">
-                <input type="button" value="Copiar" class="btnCopiar" data-btn-copiar>
+                <button type="button" value="Copiar" class="btnCopiar" data-btn-copiar>Copiar</button>
             </div>
             <div class="contenedorResultado">
                 <p class="textoResultado"></p>
             </div>
         </section>
     </main>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
