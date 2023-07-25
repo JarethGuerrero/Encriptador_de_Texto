@@ -10,7 +10,8 @@ function encriptar(){
                                .replaceAll("o","ober")
                                .replaceAll("u","ufat");
 
-    document.getElementById("textoDesencriptado").innerHTML = textoEncriptado;                           
+    document.getElementById("textoDesencriptado").innerHTML = textoEncriptado; 
+    document.getElementById("textoEncriptado").value = "";                       
 };
 
 function desencriptar(){
@@ -23,7 +24,22 @@ function desencriptar(){
                                .replaceAll("ober","o")
                                .replaceAll("ufat","u");
 
-    document.getElementById("textoDesencriptado").innerHTML = textoEncriptado;                           
+    document.getElementById("textoDesencriptado").innerHTML = textoEncriptado;  
+    document.getElementById("textoEncriptado").value = "";
 }
+
+function copiarTextoEncriptado() {
+    var textoEncriptado = document.getElementById("textoEncriptado").value;
+    
+    // Copiar el texto encriptado al portapapeles
+    var textArea = document.createElement("textarea");
+    textArea.value = textoEncriptado;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+}
+
 document.getElementById("btnEncriptar").addEventListener("click", encriptar);
 document.getElementById("btnDesencriptar").addEventListener("click", desencriptar);
+document.getElementById("btnCopiar").addEventListener("click", copiarTextoEncriptado);

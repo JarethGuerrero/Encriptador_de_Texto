@@ -38,7 +38,6 @@ main{
 .contenedorCajaTexto{
     position: relative;
     right: 1rem;
-    top: 1.5rem;
     padding-left: 5rem;
     width: 100%;
     height: 60%;
