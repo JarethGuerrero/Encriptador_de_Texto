@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 header{
@@ -41,8 +42,68 @@ section{
     width: 30%;
 }
 
+/*Section1*/
+.contenedor__CajaTexto{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaTexto{
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+    font-size: 2.45rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 3rem;
+}
 
 
+/*Section2*/
+.contenedor__imagen{
+    width: 100%;
+    height: 60%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.175rem;
+}
+
+.contenedor__Subtitulo{
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.contenedor__Parrafo{
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 400;
+}
+
+.btn__copiar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 6rem;
+}
+
+.btnCopiar{
+    width: 10.5rem;
+    height: 2.75rem;
+    border-radius: 7.5px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: whitesmoke;
+    background-color: #0A3871;
+    cursor: pointer;
+}
 
 /* body {
     background-color: #f4f4fc;
