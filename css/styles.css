@@ -1,23 +1,73 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
-}
-
-body {
-    background-color: #f4f4fc;
 }
 
 header{
     width: 100%;
     height: 70px;
+    background-color: violet;
+}
+
+header img{
+    margin-left: 60px;
+    padding: 5px;
+}
+
+main{
+    width: 100%;
+    height: 810px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: lightcoral;
+}
+
+section{
+    height: 100%;
+    background-color: lightgreen;
+}
+
+.section1{
+    width: 60%;
+}
+
+.section2{
+    width: 30%;
+}
+
+
+
+
+/* body {
+    background-color: #f4f4fc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    padding: 10px 0;
+    width: 100%;
+    height: 72px;
+    background-color: blueviolet;
 }
 
 .logo{
-    width: 5rem;
-    height: 100%;
-    padding-top: 2vw;
-    padding-left: 48px;
+    width: 10rem;
+    height: 10rem;
+
 }
 
 main{
@@ -91,19 +141,6 @@ main{
     cursor: pointer;
 }
 
-/*.btnDesencriptar{
-    width: 328px;
-    height: 67px;
-    border-radius: 24px;
-    background-color: #0A3871;
-    color: whitesmoke;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Inter', 'sans-serif';
-    border: none;
-    margin-right: 20px;
-    cursor: pointer;
-}*/
 
 .section2{
     display: block;
@@ -173,3 +210,4 @@ padding-top: 50px;
     background-color: aqua;
     padding-left: 40px;
 }
+ */
