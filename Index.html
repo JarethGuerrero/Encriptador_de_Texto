@@ -21,8 +21,8 @@
                 <p>Ingrese solo letras minúsculas y sin acento</p>
             </div>
             <div class="contenedorBotones">
-                <button type="button" class="btnEncriptar" value="Encriptar" id="btnEncriptar">Encriptar</button>
-                <button type="button" class="btnDesencriptar" value="Desencriptar" id="btnDesencriptar">Desencriptar</button>
+                <button type="button" class="btnEncriptar botones" value="Encriptar" id="btnEncriptar">Encriptar</button>
+                <button type="button" class="btnDesencriptar botones" value="Desencriptar" id="btnDesencriptar">Desencriptar</button>
             </div>
         </section>
         <section class="section2">
@@ -35,17 +35,18 @@
             <div class="contenedor__Parrafo">
                 <p>Escribe el texto que deseas encriptar o desencriptar.</p>
             </div>
-            <div class="btn__copiar">
-                <button type="button" value="Copiar" class="btnCopiar" id="btnCopiar">Copiar</button>
-            </div>
             <div class="contenedorResultado">
-                <p class="textoResultado"></p>
+                <textarea name="textoResultado" id="textoResultado"></textarea>
+            </div>
+            <div class="btn__copiar">
+                <button type="button" value="Copiar" class="btnCopiar botones" id="btnCopiar">Copiar</button>
             </div>
         </section>
     </main>
     <footer>
-
+        <h3>Creado por Jareth Guerrero</h3>
     </footer>
+    <div id="popup" class="popup" style="display: none;"></div>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
