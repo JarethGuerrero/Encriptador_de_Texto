@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
 </head>
@@ -26,21 +27,8 @@
             </div>
         </section>
         <section class="section2">
-            <div class="contenedor__imagen" >
-                <img src="images/Muñeco.svg" alt="imagen">
-            </div>
-            <div class="contenedor__Subtitulo">
-               <h3>No se ha encontrado ningún mensaje.</h3>
-            </div>
-            <div class="contenedor__Parrafo">
-                <p>Escribe el texto que deseas encriptar o desencriptar.</p>
-            </div>
-            <div class="contenedorResultado">
-                <textarea name="textoResultado" id="textoResultado"></textarea>
-            </div>
-            <div class="btn__copiar">
-                <button type="button" value="Copiar" class="btnCopiar botones" id="btnCopiar">Copiar</button>
-            </div>
+            <textarea class="textoResultado" name="textoResultado" id="textoResultado"></textarea>
+            <button type="button" value="Copiar" class="btnCopiar botones" id="btnCopiar">Copiar</button>
         </section>
     </main>
     <footer>
