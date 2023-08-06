@@ -47,7 +47,7 @@ async function copiarTexto() {
             await navigator.clipboard.writeText(txt);
             mostrarPopup("Texto copiado");
             document.getElementById("textoResultado").value = "";
-            document.getElementById("textoResultado").style.backgroundImage = "url(/images/Muñeco.svg)";
+            document.getElementById("textoResultado").style.backgroundImage = "url(../images/Munheco.svg)";
         } catch (err) {
             mostrarPopup("No se pudo copiar el texto");
         }
