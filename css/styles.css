@@ -97,7 +97,11 @@ textarea.textoResultado{
 
 .textoResultado{
     background-color: #d5e7f5;
+<<<<<<< HEAD
     background-image: url(/images/Munheco.svg);
+=======
+    background-image: url(../images/Muñeco.svg);
+>>>>>>> e672ff22747cb4d3c18e2ead0884c60650b21f88
     background-repeat: no-repeat;
     background-position: center;
     border: none;
