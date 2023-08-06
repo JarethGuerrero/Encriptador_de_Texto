@@ -18,7 +18,7 @@ header{
 
 header .logo {
     margin-left: 2rem;
-    padding: 20px 10px;
+    padding: 16px 10px;
 }
 
 main{
@@ -47,6 +47,7 @@ main{
     background-color: #d5e7f5;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 28px;
+    color: #0A3871;
 }
 
 .cajaTexto:focus{
@@ -88,9 +89,14 @@ main{
     justify-content: space-between;
 }
 
+textarea.textoResultado{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 400px;
+}
+
 .textoResultado{
-    width: 303px;
-    height: 346px;
     background-color: #d5e7f5;
     background-image: url(/images/Muñeco.svg);
     background-repeat: no-repeat;
@@ -99,25 +105,22 @@ main{
     border-radius: 25px;
     color: #0A3871;
     margin-top: 1rem;
-    resize: none;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     text-align: center;
     padding-top: 2rem;
+    resize: none;
 }
 
 .textoResultado:focus{
     outline: none;
+    height: auto;
+    white-space: pre-wrap;
 }
 
 .btnCopiar{
     margin-top: 1rem;
     margin-left: 70px;
 }
-
-
-
-
-
 
 footer{
     position: absolute;
@@ -138,11 +141,9 @@ footer h3 {
     background-color: rgba(255, 255, 255, 0.5);
     font-weight: 300;
     font-style: italic;
-  }
-  
-  /* 
-  
-  .popup {
+}
+   
+.popup {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -156,6 +157,5 @@ footer h3 {
     width: 10rem;
     text-align: center;
     font-size: 1.3rem;
-  } 
-  
-  */
+    opacity: .8;
+} 
